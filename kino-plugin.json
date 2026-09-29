@@ -1,0 +1,16 @@
+{
+  "id": "trakt-player-multi",
+  "name": "Trakt TV Player",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "entry": "plugin.js",
+  "hosts": [
+    "api.trakt.tv",
+    "vidsrc.to"
+  ],
+  "capabilities": [
+    "search",
+    "episodes",
+    "resolve"
+  ]
+}
